@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [NFT-Preview Solution](https://www.frontendmentor.io/solutions/nft-preview-with-hover-state-R5ozP4EW2v)
+- Live Site URL: [NFT-Preview Site](https://lucasjanta.github.io/nftpreview-4/)
 
 ## My process
 
