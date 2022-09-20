@@ -38,7 +38,7 @@ main {
 h1 {
     display: flex;
     color: white;
-    font-size: 22px;
+    font-size: 1.4em;
     align-self: baseline;
     margin: 18px;
 }
@@ -47,6 +47,8 @@ h2 {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     margin-left: 18px;
+    margin-right: 11px;
+    font-size: 1em;
 }
 
 .valores {
@@ -60,6 +62,7 @@ h2 {
 .et {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     color: hsl(178, 100%, 50%);
     gap: 7px;
 }
@@ -67,6 +70,7 @@ h2 {
 .clock {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     color: hsl(215, 51%, 70%);
     gap: 7px;
 }
