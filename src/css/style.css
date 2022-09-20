@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 530px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    align-items: center;
+}
+
+.img1 {
+    display: block;
+    object-fit: cover;
+    width: 265px;
+    height: 265px;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 22px;
+    align-self: baseline;
+    margin: 18px;
+}
+
+h3 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-left: 18px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    justify-content: space-between;
+    width: 88%;
+}
+
+.et {
+    display: flex;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+    gap: 7px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    gap: 7px;
+}
+
+hr {
+    width: 90%;
+    border-color: hsl(215, 32%, 27%)
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+    margin: 15px;
+}
+
+span {
+    color: white;
+}
+
+.fotinha {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
