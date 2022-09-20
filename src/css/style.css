@@ -26,6 +26,7 @@ main {
 
 .img1 {
     display: block;
+    position: relative;
     object-fit: cover;
     width: 265px;
     height: 265px;
@@ -100,6 +101,24 @@ h1:hover, span:hover {
     cursor: pointer;
 }
 
-.img1:hover {
+.imagem-hover {
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    width: 265px;
+    height: 265px;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 255, 255, 0.5);
+    z-index: 5;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-hover:hover {
     cursor: pointer;
+    visibility: visible;
+    opacity: 1;
 }
