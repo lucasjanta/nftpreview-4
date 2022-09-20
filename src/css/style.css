@@ -100,11 +100,6 @@ span {
     border-radius: 50px;
 }
 
-h1:hover, span:hover {
-    color: hsl(178, 100%, 50%);
-    cursor: pointer;
-}
-
 .imagem-hover {
     display: flex;
     position: absolute;
@@ -121,8 +116,17 @@ h1:hover, span:hover {
     align-items: center;
 }
 
-.imagem-hover:hover {
-    cursor: pointer;
-    visibility: visible;
-    opacity: 1;
+@media screen and (min-width: 700px) {
+    h1:hover, span:hover {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+    .imagem-hover:hover {
+        cursor: pointer;
+        visibility: visible;
+        opacity: 1;
+    }
 }
+
+
+
