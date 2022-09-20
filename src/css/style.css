@@ -94,3 +94,12 @@ span {
     border: 1px solid white;
     border-radius: 50px;
 }
+
+h1:hover, span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.img1:hover {
+    cursor: pointer;
+}
